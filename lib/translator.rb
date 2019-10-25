@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, emoticon)
   
   jap_emotes << new_hash["get_emoticon"][emoticon]
   
-  end
+  
   jap_emotes
 end
 
