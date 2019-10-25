@@ -17,11 +17,11 @@ def load_library(file)
 end
 
 
-def get_japanese_emoticon(file, emoticon)
+def get_japanese_emoticon(file_path, emoticon)
   
   
   
-  jap_emotes = load_library(file)[new_hash]["get_emoticon"][emoticon]
+  jap_emotes = load_library(file_path)[new_hash]["get_emoticon"][emoticon]
   
   
   
