@@ -18,8 +18,8 @@ end
 
 
 def get_japanese_emoticon(file, emoticon)
-  load_library(file)
-  jap_emotes = {}
+  
+  
   
   jap_emotes = new_hash["get_emoticon"][emoticon]
   
