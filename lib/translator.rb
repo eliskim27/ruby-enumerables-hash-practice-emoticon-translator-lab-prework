@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, emoticon)
   if load_library(file)["get_emoticon"].key? (emoticon)
     jap_emotes
   else
-    puts "Sorry, that emoticon was not found"
+    "Sorry, that emoticon was not found"
   end
   
   
