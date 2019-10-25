@@ -18,10 +18,9 @@ end
 
 
 def get_japanese_emoticon(file, emoticon)  
-  
-  
   jap_emotes = load_library(file)["get_emoticon"][emoticon]
-  
+                      #return value for laod_library is new_hash
+  load_library(file)["get_emoticon"].contains? (emoticon)
   
   
 end
