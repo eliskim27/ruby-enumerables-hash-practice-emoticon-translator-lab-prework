@@ -22,7 +22,8 @@ def get_japanese_emoticon(file, emoticon)
                       #return value for laod_library is new_hash
   load_library(file)["get_emoticon"].key? (emoticon)
   if FALSE
-    
+    puts "Sorry, that emoticon was not found"
+  end
   
   
 end
