@@ -21,8 +21,8 @@ def get_japanese_emoticon(file, emoticon)
   load_library(file)
   jap_emotes = {}
   
-  new_hash["get_emoticon"].each do |key,value|
-    jap_emotes << new_hash["get_emoticon"][value]
+  jap_emotes << new_hash["get_emoticon"][emoticon]
+  
   end
   jap_emotes
 end
