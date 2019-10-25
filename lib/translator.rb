@@ -29,7 +29,7 @@ end
 
 
 def get_english_meaning(file,emoticon)
-  
+  eng_emotes = load_library(file)["get_meaning"][emoticon]
 end
 
 
